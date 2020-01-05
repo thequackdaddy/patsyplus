@@ -7,5 +7,6 @@ setup(name='patsyplus',
       author_email='',
       url='https://www.python.org/sigs/distutils-sig/',
       packages=['patsyplus'],
-      install_requires=['patsy>=0.5.1']
+      install_requires=['patsy>=0.5.1',
+                        'statsmodels>=0.10.2']
       )
